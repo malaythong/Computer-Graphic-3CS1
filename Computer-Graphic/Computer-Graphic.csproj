@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59D5CEAB-7C3A-45F6-89F4-91E6108EFBFD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Computer_Graphic</RootNamespace>
+    <AssemblyName>Computer-Graphic</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EX-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-1.Designer.cs">
+      <DependentUpon>EX-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-2.Designer.cs">
+      <DependentUpon>EX-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-3.Designer.cs">
+      <DependentUpon>EX-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-4.Designer.cs">
+      <DependentUpon>EX-4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-5.Designer.cs">
+      <DependentUpon>EX-5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-6.Designer.cs">
+      <DependentUpon>EX-6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-7.Designer.cs">
+      <DependentUpon>EX-7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-8.Designer.cs">
+      <DependentUpon>EX-8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program-3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program-3.Designer.cs">
+      <DependentUpon>Program-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EX-1.resx">
+      <DependentUpon>EX-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-2.resx">
+      <DependentUpon>EX-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-3.resx">
+      <DependentUpon>EX-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-4.resx">
+      <DependentUpon>EX-4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-5.resx">
+      <DependentUpon>EX-5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-6.resx">
+      <DependentUpon>EX-6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-7.resx">
+      <DependentUpon>EX-7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-8.resx">
+      <DependentUpon>EX-8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program-3.resx">
+      <DependentUpon>Program-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
