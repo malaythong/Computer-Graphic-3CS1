@@ -46,6 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EX-10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-10.Designer.cs">
+      <DependentUpon>EX-10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-11.Designer.cs">
+      <DependentUpon>EX-11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-12.Designer.cs">
+      <DependentUpon>EX-12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EX-9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EX-9.Designer.cs">
+      <DependentUpon>EX-9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HW-1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HW-1.Designer.cs">
+      <DependentUpon>HW-1.cs</DependentUpon>
+    </Compile>
     <Compile Include="EX-1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +124,18 @@
     <Compile Include="EX-8.Designer.cs">
       <DependentUpon>EX-8.cs</DependentUpon>
     </Compile>
+    <Compile Include="fns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fns.Designer.cs">
+      <DependentUpon>fns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program-14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program-14.Designer.cs">
+      <DependentUpon>Program-14.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program-3.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +144,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EX-10.resx">
+      <DependentUpon>EX-10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-11.resx">
+      <DependentUpon>EX-11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-12.resx">
+      <DependentUpon>EX-12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EX-9.resx">
+      <DependentUpon>EX-9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HW-1.resx">
+      <DependentUpon>HW-1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EX-1.resx">
       <DependentUpon>EX-1.cs</DependentUpon>
     </EmbeddedResource>
@@ -125,6 +182,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EX-8.resx">
       <DependentUpon>EX-8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fns.resx">
+      <DependentUpon>fns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program-14.resx">
+      <DependentUpon>Program-14.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Program-3.resx">
       <DependentUpon>Program-3.cs</DependentUpon>

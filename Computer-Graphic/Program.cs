@@ -16,7 +16,7 @@ namespace Computer_Graphic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EX_8());
+            Application.Run(new Demo());
         }
     }
 }
